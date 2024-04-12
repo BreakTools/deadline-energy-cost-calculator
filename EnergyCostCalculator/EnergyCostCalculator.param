@@ -1,0 +1,24 @@
+[State]
+Type=Enum
+Items=Global Enabled;Opt-In;Disabled
+Label=State
+Default=Disabled
+Description=How this event plug-in should respond to events. If Global, all jobs and Workers will trigger the events for this plugin. If Opt-In, jobs and Workers can choose to trigger the events for this plugin. If Disabled, no events are triggered for this plugin.
+
+[CostPerRenderHour]
+Type=Float
+Label=Cost per render hour
+Default=0.26
+Description=The cost per render hour on the farm.
+
+[CurrencyString]
+Type=String
+Label=Currency to use
+Default=EUR
+Description=The currency to use in letters.
+
+[ExtraInfoField]
+Type=Integer
+Label=Extra info field to use (0-9)
+Default=0
+Description=The extra info field to put the data in (0-9).
