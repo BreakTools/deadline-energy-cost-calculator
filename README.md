@@ -1,6 +1,9 @@
 # Deadline energy cost calculator
 
 This simple Deadline event plugin calculates the total costs of a render and adds it to one of the job extra info keys. Costs are calculated based on a configurable average render hour price.
+<p align="center">
+  <img src="https://github.com/BreakTools/deadline-energy-cost-calculator/assets/63094424/f31d05b8-d0d7-4d35-a370-081c20ba9345" />
+</p>
 
 ## Event config
 
