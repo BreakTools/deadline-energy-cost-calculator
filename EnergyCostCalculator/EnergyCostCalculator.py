@@ -18,6 +18,7 @@ def CleanupDeadlineEventListener(eventListener):
 class EnergyCostCalculator(DeadlineEventListener):
     def __init__(self):
         """Sets up callbacks and imports config."""
+        super().__init__() # Required in Deadline 10.3 and later
         self.OnJobFinishedCallback += self.OnJobFinished
         self.OnSlaveRenderingCallback += self.OnSlaveRendering
         self.config = RepositoryUtils.GetEventPluginConfig("EnergyCostCalculator")
